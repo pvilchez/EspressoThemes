@@ -87,6 +87,15 @@ variable.parameter.function {
 
 /* @group CSS */
 
+itemize.group-start {
+	color: #c7a461;
+}
+
+itemize.group-end {
+	color: #c7a461;
+}
+
+
 selector.css {
 	color: #c7a461;
 	font-weight: bold;
@@ -100,13 +109,6 @@ property-value {
 	color: #2c9c38;
 }
 
-itemize.group-start {
-	color: #c7a461;
-}
-
-itemize.group-end {
-	color: #c7a461;
-}
 
 variable.parameter {
 	color: #3c85e2;
