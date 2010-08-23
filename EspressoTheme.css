@@ -1,0 +1,118 @@
+/*
+    @theme new theme
+    @override-placeholders html, xml, css, sourcecode.js, sourcecode.php
+    @author Paul Vilchez - http://www.twitter.com/pvilchez
+    @version 0.0
+    
+    Work in progress...
+*/
+
+/* @group Global syntax coloring */
+
+@base {
+	color: #f8f8f8;
+	background-color: #141414;
+	insertion-point-color: #fff;
+	selection-background-color: #464646;
+}
+
+comment {
+	color: #a8431d;
+	font-style: italic;
+}
+
+tag {
+	color: #56787a;
+	
+}
+
+attribute-name {
+	color: #75b09e;
+}
+
+attribute-value {
+	color: #e3da91;
+}
+
+literal.keyword.bool {
+	color:#ffebe0;
+}
+
+
+/* @end */
+
+/* @group HTML*/
+
+tag.doctype {
+	color: #81cbe3;
+}
+
+/* @end */
+
+/* @group Javascript*/
+
+support.class {
+	color: #af96b3;
+}
+
+keyword {
+	color: #ea8e67;
+}
+
+storage.type {
+	color: #2c9c38;
+}
+
+name {
+	color: #89bdff;
+}
+
+constant.numeric {
+	color: #3387cc;
+}
+
+support.function {
+	color: #d8ce83;
+}
+
+string.quoted {
+	color: #4f8e34;
+}
+
+variable.parameter.function {
+	color: #377acf;
+}
+
+/* @end */
+
+/* @group CSS */
+
+selector.css {
+	color: #c7a461;
+	font-weight: bold;
+}
+
+property-name {
+	color: #c05c1f;
+}
+
+property-value {
+	color: #2c9c38;
+}
+
+itemize.group-start {
+	color: #c7a461;
+}
+
+itemize.group-end {
+	color: #c7a461;
+}
+
+variable.parameter {
+	color: #3c85e2;
+}
+
+zkeyword.other.zunit {
+	color: #527035;
+}
+/* @end */
